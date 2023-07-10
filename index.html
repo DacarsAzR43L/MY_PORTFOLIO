@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+
+<!--STYLESHEET -->
+<link rel="stylesheet" href="style.css">
+
+<!--FONT STYLE-->
+<script src="https://kit.fontawesome.com/e10e4b1964.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div id="header">
+	
+	<!--LOGO AND NAVIGATION -->
+	<div class="container"> 
+
+		<nav>
+			<img src="images/logo.png" class="logo">
+			<ul id="sidemenu">
+
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#myskills">Skills</a></li>
+				<li><a href="#ambition">Ambition</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+		</nav>
+
+		<!--HEADER TEXT -->
+
+		<div class="header-text"> 
+
+			<p>BSIT Student</p>
+			<h1>Hi, I'm <span>Raphael </span> <br>
+				from Bulacan</h1>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--ABOUT SECTION -->
+<div id="about">
+	
+	<div class="container">
+		
+		<div class="row">
+			
+			<div class="about-col-1">
+				
+				<img src="images/about.png">
+
+			</div> 
+
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p class="about-description"> Hello! I'm Raphael Dacara, an aspiring web developer with a passion for creating dynamic and engaging online experiences. I am thrilled to have the opportunity to share my journey and showcase my skills through this portfolio.
+
+					Since I discovered the fascinating world of web development, I have been captivated by its limitless possibilities. From crafting visually stunning designs to writing clean and efficient code, every aspect of web development ignites my creativity and pushes me to continuously learn and grow.
+					
+					With a solid foundation in HTML, CSS, and JavaScript, I have been able to build interactive websites that not only look aesthetically pleasing but also provide seamless user experiences. I am constantly expanding my knowledge and exploring new technologies, such as React and Node.js, to stay at the forefront of industry trends.
+					
+					What drives me as a web developer is the ability to transform ideas into reality. I enjoy collaborating with clients and turning their visions into functional and user-friendly websites. By understanding their unique goals and requirements, I strive to create digital solutions that effectively communicate their brand and leave a lasting impact on their audience.
+					
+					In addition to technical skills, I possess strong problem-solving abilities and attention to detail, ensuring that each project I work on is delivered to the highest standard. I am a quick learner and enjoy tackling challenges head-on, always seeking innovative solutions to improve efficiency and user experience.
+					
+					Beyond the technical realm, I value effective communication and teamwork. I believe that collaboration and open dialogue are essential in creating successful web projects. I am enthusiastic about working with multidisciplinary teams, where I can contribute my expertise while also learning from others.</p>
+
+
+			<div class="tab-titles"> 
+
+				<p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+				<p class="tab-links" onclick="opentab('family')"> Family</p>
+				<p class="tab-links" onclick="opentab('education')"> Education</p>
+
+			</div>
+
+			<div class="tab-contents active-tab" id="skills">
+
+				<ul> 
+
+					<li><span>Playing Instrument</span><br> Guitar, Piano</li>
+					<li><span>Web Development</span><br> Designing Websites</li>
+					<li><span>Good Communication Skills</span><br> Hardworking, Efficient Employee</li>
+
+				</ul>
+
+
+			 </div>
+
+
+			 <div class="tab-contents" id="family">
+
+				<ul> 
+
+					<li><span>Mother</span><br> Anabel E. Dacara</li>
+					<li><span>Father</span><br> Ricardo S. Dacara</li>
+					
+
+				</ul>
+
+				</div>
+
+
+				<div class="tab-contents" id="education">
+
+				<ul> 
+
+					<li><span>Elementary</span><br> St. Paul School of Sta. Maria <br>
+												Santa Maria, Bulacan<br>
+												2007-2014
+					</li>
+					<li><span>Secondary</span><br>Early Christian College of Arts and Technology <br>
+						Santa Maria, Bulacan	 <br>
+												  2014 -2019
+					</li>
+					<li><span>Senior High School</span><br> STI College Santa Maria <br>
+															ICT <br>
+															2019-2021
+					</li>
+
+					<li><span>Tertiary</span><br> Polytechnic University of the Philippines Santa Maria Bulacan
+												 <br>Bachelor of Science in Information Technology <br>
+												2021-2021 3rd Year continuing
+					</li>
+
+				</ul>
+
+			 </div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<!--SKILLS -->
+
+<div id="myskills">
+
+	<div class="container">
+
+			<h1 class="sub-title">My Skills</h1>
+			<div class="skills-list">
+
+				<div>
+			<i class="fa-sharp fa-solid fa-music"></i>
+					<h2>Playing Instruments</h2>
+					<p>  I express my thoughts through playing and singing.</p>
+
+					<a href="#"> Learn More </a>
+
+				</div>
+
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>Coding</h2>
+					<p> I do and study about coding and I enjoy it most of the time.</p>
+
+					<a href="#"> Learn More </a>
+
+				</div>
+
+				<div>
+					<i class="fa-sharp fa-solid fa-universal-access"></i>
+					<h2>Good Communication Skills</h2>
+					<p> My idea is not valuable when not shared.</p>
+
+					<a href="#"> Learn More </a>
+
+				</div>
+
+
+			 </div>
+		
+	</div>
+	
+
+</div>
+
+<!--AMBITION -->
+
+<div id="ambition">
+
+	 <div class="container">
+	 	
+	 	<h1 class="sub-title">My Ambition</h1>
+
+	 	<div class="ambition-list">
+	 		
+	 		<div class="ambition1">
+	 			
+	 			<img src="images/salon.jpg">
+
+	 			<div class="layer">
+	 				<h3>Build a Salon</h3>
+	 				<p>I want to build my own Salon where i want to put eyelash extensions on my customers and i want them to be confident and pretty on themselves.</p>
+	 				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+	 			</div>
+
+	 		</div>
+
+	 		<div class="ambition1">
+	 			
+	 			<img src="images/manager.jpg">
+	 			<div class="layer">
+	 				<h3>Be a Salon Manager</h3>
+	 				<p>i want also to be a boss on my own job so I can command my employees to do their job.</p>
+	 				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+	 			</div>
+	 		</div>
+
+	 		<div class="ambition1">
+	 			
+	 			<img src="images/social.jpg">
+	 			<div class="layer">
+	 				<h3>Social Media Manager</h3>
+	 				<p>i want to grow my own job through online or internet.</p>
+	 				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+	 			</div>
+	 		</div>
+
+	 	</div>
+	 	<a href="resume.pdf" class="btn" download> Download CV Here</a>
+	 </div> 
+
+</div>
+
+<!--CONTACT -->
+
+<div id="contact">
+
+	 <div class="container">
+	 	
+	 	<div class="row">
+	 		<div class="contact-left">
+	 			
+	 			<h1 class="sub-title">Contact Name</h1>
+	 			<p><i class="fa-solid fa-paper-plane"></i>Raphael E. Dacara</p>
+	 			<p><i class="fa-solid fa-phone"></i>09993161582 </p>
+				 <p><i class="fa-solid fa-envelope"></i>raphaeldacara@outlook.com </p>
+
+	 			<div class="social-icons">
+	 				
+	 				<a href="https://www.facebook.com/raphaeldacara19up"><i class="fa-brands fa-facebook"></i></a>
+	 				<a href="https://twitter.com/_itsmeeraprap"><i class="fa-brands fa-twitter-square"></i></a>
+			
+	 			
+	 			</div>
+
+	 		</div>
+	 		<div class="contact-right">
+	 			
+	 			<form name="submit-to-google-sheet">
+	 				
+	 				<input type="text" name="Name" placeholder="Your Name" required>
+	 				<input type="email" name="Email" placeholder="Your Email" required>
+	 		<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+	 			<button type="submit" class="btn btn2">Submit</button>
+
+	 			</form>
+	 			<span id="msg"> </span>
+	 		</div>
+
+	 		
+	 	</div>
+
+	 </div>
+	<div class="copyright">
+		
+		<p>Copyright Ⓒ Raphael E.Dacara. COMP 20133 Final Requirement</p>
+
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+	
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+	
+	for (tablink of tablinks) {
+		tablink.classList.remove("active-link");
+	}
+
+	for (tabcontent of tabcontents) {
+		tabcontent.classList.remove("active-tab");
+	}
+
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab");
+
+}
+
+</script>
+
+
+<script type="text/javascript">
+	
+var sidemenu  = document.getElementById("sidemenu");
+
+function openmenu() {
+
+	sidemenu.style.right="0";
+
+}
+
+function closemenu() {
+
+	sidemenu.style.right="-200px";
+
+}
+
+
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx1xjwZUQqRMGZcz_eK4T04m45NNnnlz9GLcRRvU53v0Gh9J8HtIkL1bMswGMiw8CI/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message Sent Successfully!"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
